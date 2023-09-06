@@ -1,0 +1,23 @@
+{
+  "name": "svelte_widget",
+  "version": "0.0.1",
+  "description": "Webpack configuration to create svelte widget",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development webpack serve --open --config webpack.config.js --hot",
+    "build": "NODE_ENV=development webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "svelte",
+    "webpack",
+    "widget"
+  ],
+  "author": "Ivan Martynenko",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
